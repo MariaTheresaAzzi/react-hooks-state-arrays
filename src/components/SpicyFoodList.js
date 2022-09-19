@@ -15,6 +15,12 @@ function SpicyFoodList() {
     </li>
   ));
 
+  // const foodList = foodsToDisplay.map((food) => (
+  //   <li key={food.id} onClick={() => handleLiClick(food.id)}>
+  //     {food.name} | Heat: {food.heatLevel} | Cuisine: {food.cuisine}
+  //   </li>
+  // ));
+
   return (
     <div>
       <button onClick={handleAddFood}>Add New Food</button>
